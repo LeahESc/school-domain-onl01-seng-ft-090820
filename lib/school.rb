@@ -14,10 +14,9 @@ def add_student(student_name, grade)
   # binding.pry
   # @roster
    if !@roster[grade] 
-    # == nil ![ ]
+    # == nil 
      @roster[grade] = [ ]
     # @roster[grade] << student_name
-  # else
   end
    @roster[grade] << student_name
   end
